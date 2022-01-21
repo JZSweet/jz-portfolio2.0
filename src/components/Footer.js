@@ -7,7 +7,7 @@ class Footer extends Component {
         <h2>Footer</h2>
       </div>
     );
-  }
-}
+  };
+};
 
 export default Footer

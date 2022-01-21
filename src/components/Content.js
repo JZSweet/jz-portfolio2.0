@@ -17,7 +17,7 @@ class Content extends Component {
         <p>Semper quis lectus nulla at. Nullam ac tortor vitae purus faucibus ornare suspendisse. Nunc faucibus a pellentesque sit. Risus quis varius quam quisque id diam vel quam elementum.</p>
       </div>
     );
-  }
-}
+  };
+};
  
 export default Content;

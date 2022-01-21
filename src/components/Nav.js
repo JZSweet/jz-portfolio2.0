@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
  
 class Navbar extends Component {
   render() {
     return (
-      <div className="navbar">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#" className="right">Contact</a>
-      </div>
+        <Breadcrumb>
+        <Breadcrumb.Item href="#">About</Breadcrumb.Item>
+        <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
+          Project
+        </Breadcrumb.Item>
+        <Breadcrumb.Item href="#">Contact</Breadcrumb.Item>
+      </Breadcrumb>
     );
-  }
-}
+  };
+};
  
 export default Navbar;

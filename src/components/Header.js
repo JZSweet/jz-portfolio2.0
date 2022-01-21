@@ -8,7 +8,7 @@ class Header extends Component {
         <p>Demo application created in React App</p>
       </div>
     );
-  }
-}
+  };
+};
  
 export default Header;
