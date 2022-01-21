@@ -1,37 +1,15 @@
-import React from 'react';
-
-function NavTabs(props) {
+import React, { Component } from 'react';
+ 
+class Navbar extends Component {
+  render() {
     return (
-      <ul className="nav nav-tabs">
-        <li className="nav-item">
-          <a
-            href="#about"
-            onClick={() => props.handlePageChange("About")}
-            className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
-          >
-            About JZ
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#Project"
-            onClick={() => props.handlePageChange("Project")}
-            className={props.currentPage === "Project" ? "nav-link active" : "nav-link"}
-          >
-            Project
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#contact"
-            onClick={() => props.handlePageChange("Contact")}
-            className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
-          >
-            Contact
-          </a>
-        </li>
-      </ul>
+      <div className="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#" className="right">Contact</a>
+      </div>
     );
   }
-  
-  export default NavTabs;
+}
+ 
+export default Navbar;
