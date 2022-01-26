@@ -1,0 +1,28 @@
+#tt {
+    max-width: 30%;
+    height: auto;
+}
+
+#name {
+    max-width: 30%;
+    height: auto;
+}
+
+#jz1 {
+    max-width: 50%;
+    height: auto;
+}
+
+#footerpic {
+    max-width: 30%;
+    height: auto;
+}
+
+#navitem {
+    position: right !important;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}

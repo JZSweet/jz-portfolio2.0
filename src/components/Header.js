@@ -10,12 +10,8 @@ class Header extends Component {
     render() {
         return (
             <Container>
-                <Row md={4}>
-                    <Col>
-                        <Navbar />
-                    </Col>
-                    
-                    <Col xs={6}>
+                <Row>
+                    <Col md={4}>
                         <div className='header' >
                             <img className='d-block w-100'
                                 id='tt'
@@ -28,6 +24,10 @@ class Header extends Component {
                                 alt='Header img2' />
                         </div>
                     </Col>
+                    
+                    <Col md={{ span: 4, offset: 4 }}>
+                        <Navbar />
+                    </Col>                    
                 </Row>
             </Container>
         );
