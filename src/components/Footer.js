@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import FooterCrumb from '../components/FooterCrumb';
 import Foot from './img/Footer.png';
 import './css/style.css';
 
@@ -8,17 +11,22 @@ import './css/style.css';
 class Footer extends Component {
   render() {
     return (
-      <Breadcrumb>
-        <Breadcrumb.Item href='#'>Resume</Breadcrumb.Item>
-        <Breadcrumb.Item href='#'>LinkedIn</Breadcrumb.Item>
-        <div className='footer' >
-          <img className='d-block w-50'
-            id='footerpic'
-            src={Foot}
-            alt='footer img' />
-        </div>
-      </Breadcrumb>
+      <Container>
+        <Row>
+          <Col md={{ span: 4, offset: 4 }}>
+            <FooterCrumb />
+          </Col>
 
+          <Col md={{ span: 4, offset: 4 }}>
+            <div className='footer' >
+              <img className='d-block w-100'
+                id='footerpic'
+                src={Foot}
+                alt='footer img' />
+            </div>
+          </Col>
+        </Row>
+      </Container>
     );
   };
 };
