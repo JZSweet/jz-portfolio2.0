@@ -6,7 +6,7 @@ class Navbar extends Component {
     return (     
       <Breadcrumb>
         <Breadcrumb.Item href="#">About</Breadcrumb.Item>
-        <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
+        <Breadcrumb.Item href="#">
           Project
         </Breadcrumb.Item>
         <Breadcrumb.Item href="#">Contact</Breadcrumb.Item>
