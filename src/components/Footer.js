@@ -17,7 +17,7 @@ class Footer extends Component {
             <FooterCrumb />
           </Col>
 
-          <Col md={{ span: 4, offset: 4 }}>
+          <Col md={4}>
             <div className='footer' >
               <img className='d-block w-100'
                 id='footerpic'
