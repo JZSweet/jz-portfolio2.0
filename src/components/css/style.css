@@ -1,6 +1,8 @@
 #tt {
-    max-width: 30%;
+    max-width: 50%;
     height: auto;
+    position: left 0px !important;
+    border-bottom-width: 40px;
 }
 
 #name {
@@ -14,15 +16,18 @@
 }
 
 #footerpic {
-    max-width: 30%;
+    max-width: 40%;
     height: auto;
+    margin: auto;
+    bottom: 0 !important;
 }
 
 #navitem {
     position: right !important;
 }
 
-.row {
+
+/* .row {
     display: flex;
     flex-direction: row;
-}
+} */

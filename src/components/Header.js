@@ -13,12 +13,12 @@ class Header extends Component {
                 <Row>
                     <Col md={4}>
                         <div className='header' >
-                            <img className='d-block w-100'
+                            <img className='headerpic'
                                 id='tt'
                                 src={Head}
                                 alt='Header img1' />
 
-                            <img className='d-block w-100'
+                            <img className='headerpic'
                                 id='name'
                                 src={Jia}
                                 alt='Header img2' />
