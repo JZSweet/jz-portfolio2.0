@@ -6,9 +6,7 @@ class Navbar extends Component {
     return (     
       <Breadcrumb>
         <Breadcrumb.Item href="#">About</Breadcrumb.Item>
-        <Breadcrumb.Item href="#">
-          Project
-        </Breadcrumb.Item>
+        <Breadcrumb.Item href="#">Project</Breadcrumb.Item>
         <Breadcrumb.Item href="#">Contact</Breadcrumb.Item>
       </Breadcrumb>
     );
