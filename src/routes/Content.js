@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import JZ from './img/JZ.png';
+import JZ from '../components/img/JZ.png';
 
 class Content extends Component {
   render() {

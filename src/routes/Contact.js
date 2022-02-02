@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import JZ2 from './img/JZ2.png';
+import JZ2 from '../components/img/JZ2.png';
 
 class Contact extends Component {
     render() {
